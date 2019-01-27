@@ -7,13 +7,21 @@ The current version of the Dapp allows anyone with metamask to create a funding 
 Installations and set-up:
 To run the project locally, please do the following installations below. If issues it might be your global truffle/solc versions overwriting, so try delete those & only use the once described below. The application has been developed & tested on Oracle VM VirtualBox, with system Ubuntu 16.04.
 Once you have downloaded the project folder from github, go into the folder from terminal and run the following:
+
 sudo apt update
+
 sudo apt install nodejs npm
+
 sudo apt install npm npm install --save ganache-cli mocha solc@0.4.17 fs-extra web3@1.0.0-beta.26
+
 npm install --save truffle-hdwallet-provider
+
 npm install --save next@4.1.4 react react-dom
+
 npm install --save semantic-ui-react
+
 npm install --save semantic-ui-css
+
 npm install --save next-routes
 
 Run tests, start application & compile/deploy:
