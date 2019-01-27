@@ -26,10 +26,14 @@ npm install --save next-routes
 
 Run tests, start application & compile/deploy:
 3.1 Run tests: With terminal go into project folder and type “npm run test”. The tests will then execute from the test folder. You can look at the file “Charity.test.js” to see the code with comments.
+
 3.2 Run app: There is already a deployed version of CharityFactory on Rinkeby: 0x31fD63F98B9eAA520C2DAc5C9Ed71118Fc2747F8 You can therefore access this contract through local node.js server by going into project folder and type “npm run dev”. The server will spin up the application on localhost: 3000. You can use Metamask to interact with it. Make sure to be on the Rinkeby network.
+
 3.3 Compile and deploy own version: If you want to deploy a new version remember to put in your own 12 words from metamask in the "deploy.js" file. Then, go into the project folder “ethereum” with terminal and type “node compile.js”. This will build new versions of the contracts. Then in the same Ethereum-folder, type “node deploy.js”. This will deploy a new factory-contract on Rinkeby. The console will print the ethereum-address. Please remember to save that address and edit it in the “factory.js” file if you want to interact with it through the app.
 
-Test, Design and Security See separate files:
+
+
+4. Test, Design and Security See separate files:
 - Campaign.test.js - design_pattern_desicions, - avoiding_common_attacks
 
 Fully developmed Dapp and suggested improvements:
